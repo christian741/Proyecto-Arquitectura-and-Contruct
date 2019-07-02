@@ -1,0 +1,44 @@
+.fondo-comentario{
+	background-color: #F4D03F  ;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+form{
+	width: 450px;
+	margin: auto;
+	background: #F7DC6F;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	
+	border-radius: 7px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background: #F1C40F  ;
+	color:#fff;
+    padding: 20px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+/*condicional*/
+@media (max-width: 480px){
+	form{
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,13 @@
+.video-juego{
+	background-image: url(imagenes/img1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+}
+.video-juego h2{
+	font-family: udec;
+	text-transform: uppercase;
+	font-size: 26px;
+	color: black;
+	letter-spacing: 1px;
+}

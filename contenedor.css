@@ -1,0 +1,31 @@
+
+p {
+  text-align: center; 
+}
+
+label {
+  font-size: 50px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: #fff;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+

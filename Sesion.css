@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: udec;
+}
+
+header{
+	width: 100%;
+	background : #E74C3C;
+	height: 100px;
+	position: fixed;
+	z-index: 10;
+}
+/* aquí estamos modificando el ancho */
+.ancho{
+	width: 80%;
+	height: 100px;
+	/*background: red;*/
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: udec;
+}
+nav{
+	width: 70%;
+	height: 70px;
+	/*background: olive;*/
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: black;
+	font-family: udec;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: udec;
+}
